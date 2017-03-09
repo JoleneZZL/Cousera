@@ -1,3 +1,20 @@
 .list{
 background:lightyellow;
+border:10px solid yellow;
+margin-bottom:10px;
+width:720px;
+}
+label{
+  width:180px;
+  display:inline-block;
+  text-align:right top;
+}
+.list3 label{
+  text-align:center;
+  background-color:purple;
+  color:white;
+}
+.list4 textarea{
+  width:360px;
+  height:50px;
 }
