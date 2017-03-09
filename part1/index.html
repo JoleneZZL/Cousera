@@ -5,11 +5,14 @@
 <title>Dating you</title>
 </head>
 <body>
+<div class="list list1">
 <p>Your Face</p>
 <form action="action.asp" method="post">
 <p>Your image:<input type="file" required="required"/></p>
 <p>Image preview:<img id="preview" src="url"/></p>
 </form>
+</div>
+<div class="list list2">
 <p>Your General Details</p>
 <form action="action.asp" method="post">
 <p>Name:<input type="text"  name="name" value="Please enter ur name" required="required/></p>
@@ -26,14 +29,18 @@
 <option value="Paris">Paris</option>
 </select>
 </form>
+</div>
+<div class="list list3">
 <p>Your indicators</p>
 <p>Height:Short<input type="range" name="height" min="Short" max="Tall"/>Tall</p>
 <p>Salary:Poor<input type="range" name="salary" min="Poor" max="Rich"/>Rich</p>
 <p>Your Contact information</p>
+</div>
+<div class="list list4">
 <form action="action.asp" 
 <p>Email:<input type="email" required="required"/></p>
 <p>Mobile:<input type="tel" name="mobile"/></p>
-<p>Address:<textarea name="add">Please enter your add.....</textarea>
+<p>Address:<textarea name="add" cols="30" rows="10">Please enter your add.....</textarea>
 <p>Method to contact you:
 <label for="email">Email</label>
 <input type="checkbox" name="contact"  value="1"/>
@@ -42,6 +49,7 @@
 <label for="inapp">In-app chat</label>
 <input type="checkbox" name="contact" value="3"/></p>
 </form>
+</div>
 <form>
 <input type="submit" value="submitme!"/>
 </form>
