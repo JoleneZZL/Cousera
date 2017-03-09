@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/> 
+<title>Dating you</title>
+<style type="text/css">
+.list{
+background:lightyellow;
+border:10px solid yellow;
+margin-bottom:10px;
+width:720px;
+padding:10px;
+}
+label{
+  width:180px;
+  display:inline-block;
+  text-align:right top;
+}
+.list3 label{
+  text-align:center;
+  background-color:purple;
+  color:white;
+}
+.list4 textarea{
+  width:360px;
+  height:50px;
+}
+</style>
+</head>
+<body>
+  <h1>Please enter your dating details for our dating website!</h1>
+<div class="list list1">
+<p>Your Face</p>
+<form action="action.asp" method="post">
+<p>Your image:<input type="file" required="required"/></p>
+<p>Image preview:<img id="preview" src="url"/></p>
+</form>
+</div>
+<div class="list list2">
+<p>Your General Details</p>
+<form action="action.asp" method="post">
+<p>Name:<input type="text"  name="name" value="Please enter ur name" required="required/></p>
+<p>Gender:<label for="male">Male</label> <input type="radio" name="gender" required value="M" required="required" checked="checked"/> 
+<label for="female">Female</label>
+<input type="radio" name="gender" value="F" required="required" /></p>
+<p>Age:<input type="number" name="age" required="required />
+<p>Date of birth:<input type="date"/></p>
+<p>Favorite color:<input type="color" name="favorite_color"/></p>
+<p>Which country:<select name="city">
+<option value="tokyo">Tokyo</option>
+<option value="newyork">NewYork</option>
+<option value="Shanghai">ShangHai</option>
+<option value="Paris">Paris</option>
+</select>
+</form>
+</div>
+<div class="list list3">
+<p>Your indicators</p>
+  <p>Height:<label>Short</label><input type="range" name="height" min="Short" max="Tall"/><label>Tall</label></p>
+<p>Salary:<label>Poor</label><input type="range" name="salary" min="Poor" max="Rich"/><label>Rich</label></p>
+<p>Your Contact information</p>
+</div>
+<div class="list list4">
+<form action="action.asp" 
+<p>Email:<input type="email" required="required"/></p>
+<p>Mobile:<input type="tel" name="mobile"/></p>
+<p>Address:<textarea name="add">Please enter your add.....</textarea>
+<p>Method to contact you:
+<label for="email">Email</label>
+<input type="checkbox" name="contact"  value="1"/>
+<label for="whatsapp">Whatsapp</label>
+<input type="checkbox" name="contact" value="2"/>
+<label for="inapp">In-app chat</label>
+<input type="checkbox" name="contact" value="3"/></p>
+</form>
+</div>
+<form>
+<input type="submit" value="submitme!"/>
+</form>
+</body>
+</html>
+
