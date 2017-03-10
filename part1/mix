@@ -77,7 +77,7 @@ value="Paris">Paris</option>
 </div>
 <div class="list list3">
   <fieldset class="wrap">
-<label>Your indicators</label>
+<legend>Your indicators</legend>
   <p>Height:<label>Short</label><input type="range" name="height" 
 
 min="Short" max="Tall"/><label>Tall</label></p>
