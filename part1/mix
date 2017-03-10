@@ -4,12 +4,6 @@
 <meta charset="utf-8"/> 
 <title>Dating you</title>
 <style type="text/css">
-.list{
-font-size:1em;
-}
-.list:hover{
-font-size:5em;
-}
 .wrap{
 border:10px solid yellow;
 background:lightyellow;
@@ -31,10 +25,11 @@ label{
   width:360px;
   height:50px;
 }
+p:hover { font-size:40px; }
+label:hover { font-size:40px;}
 </style>
 </head>
 <body>
- 
 <body>
 <h1>Please enter your dating details for our dating website!</h1>
 <div class="list list1">
@@ -42,7 +37,6 @@ label{
 <legend>Your Face</legend>
 <form action="action.asp" method="post">
 <p>Your image:<input type="file" 
-
 required="required"/></p>
 <p>Image preview:<img id="preview" src="url"/></p>
 </form>
@@ -74,9 +68,7 @@ name="favorite_color"/></p>
 <option value="tokyo">Tokyo</option>
 <option value="newyork">NewYork</option>
 <option value="Shanghai">ShangHai</option>
-<option 
-
-value="Paris">Paris</option>
+<option value="Paris">Paris</option>
 </select>
 </form>
   </fieldset>
