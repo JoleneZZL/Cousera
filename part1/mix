@@ -82,7 +82,6 @@ min="Short" max="Tall"/><label>Tall</label></p>
 <p>Salary:<label>Poor</label><input type="range" 
 
 name="salary" min="Poor" max="Rich"/><label>Rich</label></p>
-<p>Your Contact information</p>
 </fieldset>
 </div>
 <div class="list list4">
